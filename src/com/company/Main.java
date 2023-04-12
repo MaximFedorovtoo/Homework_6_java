@@ -41,26 +41,6 @@ public class Main {
             this(name, surname, age, 50.0, jobTitle);
         }
 
-        public String getName() {
-            return name;
-        }
-
-        public String getSurname() {
-            return surname;
-        }
-
-        public int getAge() {
-            return age;
-        }
-
-        public String getJobTitle() {
-            return jobTitle;
-        }
-
-        public double getSalary() {
-            return salary;
-        }
-
         @Override
         public int hashCode() {
             int result = 17;
