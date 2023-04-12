@@ -9,7 +9,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Set<Employee> emp = new HashSet<>();
         Employee emp1 = new Employee("Ivan", "Ivanov", 45, "Manager");
         Employee emp2 = new Employee("Ivan", "Ivanov", 50, 1000.0, "Manager");
         Employee emp3 = new Employee("Ivan", "Ivanov", 50, 1000.0, "Manager");
