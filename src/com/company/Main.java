@@ -45,6 +45,7 @@ public class Main {
         public int hashCode() {
             int result = 17;
             result = 31 * result + name.hashCode();
+            result = 31 * result + surname.hashCode();
             result = 31 * result + age;
             result = 31 * result + (jobTitle != null ? jobTitle.hashCode() : 0);
             result = 31 * result + Double.hashCode(salary);
@@ -53,11 +54,11 @@ public class Main {
         @Override
         public String toString() {
             return "Employee{" +
-                    "age=" + age +
-                    ", name='" + name + '\'' +
-                    ", surname='" + surname + '\'' +
-                    ", salary=" + salary +
-                    ", jobTitle='" + jobTitle + '\'' +
+                    "age= " + age +
+                    ", name= '" + name + '\'' +
+                    ", surname= '" + surname + '\'' +
+                    ", salary= " + salary +
+                    ", jobTitle= '" + jobTitle + '\'' +
                     '}';
         }
 
