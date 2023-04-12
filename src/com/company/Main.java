@@ -106,16 +106,14 @@ public class Main {
         }
 
         void upgrade(double salary) {
-            double user_input = salary;
-            this.salary += user_input;
+            this.salary += salary;
         }
 
         public boolean olderThan(Employee e) {
             return this.age > e.age;
         }
         public String getFullName(){
-            String fullName = this.name + " " + this.surname;
-            return fullName;
+            return this.name + " " + this.surname;
         }
 
     }
